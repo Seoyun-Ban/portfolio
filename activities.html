@@ -3,73 +3,74 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Activities | My Portfolio</title>
+  <title>Activities - My Portfolio</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="navbar">
-    <div class="logo">My Portfolio</div>
+  <header class="app-bar">
+    <nav class="nav">
+      <a href="index.html" class="logo">My Portfolio</a>
 
-    <button class="menu-btn" id="menuBtn" aria-label="Open navigation menu">☰</button>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
 
-    <nav class="nav-links" id="navLinks">
-      <a href="index.html">About</a>
-      <a href="activities.html" class="active">Activities</a>
+      <div class="nav-links" id="navLinks">
+        <a href="index.html">About</a>
+        <a href="activities.html" class="active">Activities</a>
+      </div>
     </nav>
   </header>
 
-  <main class="container">
-    <section class="page-title">
-      <p class="label">Portfolio</p>
+  <main>
+    <section class="page-header">
       <h1>Activity List</h1>
-      <p>Here are some projects, experiences, and activities I have worked on.</p>
+      <p>A collection of my projects, learning experiences, and achievements.</p>
     </section>
 
     <section class="activity-list">
       <article class="activity-card">
-        <div class="activity-date">2026</div>
-        <div>
-          <h3>Personal Portfolio Website</h3>
-          <p>
-            Designed and developed a responsive portfolio website using HTML,
-            CSS, and JavaScript.
-          </p>
-          <span class="tag">Web Design</span>
-          <span class="tag">HTML</span>
-          <span class="tag">CSS</span>
-        </div>
+        <span class="chip">Project</span>
+        <h2>Personal Portfolio Website</h2>
+        <p>
+          Designed and built a responsive portfolio website using HTML, CSS,
+          and JavaScript.
+        </p>
+        <p class="date">2026</p>
       </article>
 
       <article class="activity-card">
-        <div class="activity-date">2025</div>
-        <div>
-          <h3>School Project Presentation</h3>
-          <p>
-            Created a team presentation and organized research materials for a
-            class project.
-          </p>
-          <span class="tag">Teamwork</span>
-          <span class="tag">Research</span>
-        </div>
+        <span class="chip">Study</span>
+        <h2>JavaScript Practice</h2>
+        <p>
+          Practiced DOM manipulation, events, functions, and interactive web
+          features.
+        </p>
+        <p class="date">2026</p>
       </article>
 
       <article class="activity-card">
-        <div class="activity-date">2025</div>
-        <div>
-          <h3>JavaScript Mini App</h3>
-          <p>
-            Built a small interactive app to practice DOM manipulation and event
-            handling.
-          </p>
-          <span class="tag">JavaScript</span>
-          <span class="tag">Frontend</span>
-        </div>
+        <span class="chip">Design</span>
+        <h2>UI Design Exploration</h2>
+        <p>
+          Learned basic design principles such as spacing, color, typography,
+          and card-based layouts.
+        </p>
+        <p class="date">2026</p>
+      </article>
+
+      <article class="activity-card">
+        <span class="chip">Teamwork</span>
+        <h2>Group Presentation</h2>
+        <p>
+          Collaborated with classmates to research, prepare slides, and present
+          a topic clearly.
+        </p>
+        <p class="date">2026</p>
       </article>
     </section>
   </main>
 
   <footer>
-    <p>© 2026 Seoyun Ban. All rights reserved.</p>
+    <p>© 2026 Your Name. All rights reserved.</p>
   </footer>
 
   <script src="script.js"></script>
