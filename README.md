@@ -1,12 +1,37 @@
 # Seoyun Ban Portfolio
 
-Simple responsive portfolio website built with HTML, CSS, and JavaScript.
+A responsive personal portfolio website built with HTML, CSS, and JavaScript.
+
+## About
+
+This portfolio introduces me as an aspiring AI Engineer with a strong interest in Data Science, Artificial Intelligence, and Software Development. It showcases my background, skills, goals, and activities.
+
+## Features
+
+- Responsive web design
+- Personal introduction
+- Activity and project page
+- AI Survey section
+- Mobile-friendly navigation
+
+## Technologies
+
+- HTML5
+- CSS3
+- JavaScript
 
 ## Pages
 
-- `index.html`: Self-introduction page
-- `activities.html`: Activity list page
+- `index.html` – About Me, Skills, Education, Goal, and AI Survey
+- `activities.html` – Activities, projects, and learning experiences
 
-## How to View
+## How to Run
 
-Open `index.html` in a browser.
+1. Download or clone this repository.
+2. Open `index.html` in any modern web browser.
+
+## Author
+
+**Seoyun Ban**
+
+Aspiring AI Engineer | Data Science Enthusiast
